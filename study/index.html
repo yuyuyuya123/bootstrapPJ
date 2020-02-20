@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<!-- BootStrap CSS,custom CSS -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+
+		<div class="container-fluid">
+			<h4 class="lead">按钮组</h4>
+			<div class="btn-group" role="group">
+				<button type="button" class="btn btn-secondary">Left</button>
+				<button type="button" class="btn btn-secondary">Middle</button>
+				<div class="btn-group">
+					<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">Right</button>
+					<div class="dropdown-menu">
+						<h2 class="dropdown-header font-weight-bold">水果</h2>
+						<a href="#" class="dropdown-item small disabled">火龙果</a>
+						<a href="#" class="dropdown-item small active">橘子</a>
+						<a href="#" class="dropdown-item small">苹果</a>
+						<div class="dropdown-divider"></div>
+						<h2 class="dropdown-header font-weight-bold">文具</h2>
+						<a href="#" class="dropdown-item small">铅笔</a>
+						<a href="#" class="dropdown-item small">钢笔</a>
+						<a href="#" class="dropdown-item small">尺子</a>
+					</div>
+				</div>
+			</div>
+		</div><br>
+
+		<h4 class="lead">徽章</h4>
+		<div class="row">
+			<div class="col-6">
+				<button type="button" class="btn btn-success btn-block">
+					Message
+					<span class="badge badge-light">4</span>
+				</button>
+			</div>
+		</div><br>
+
+		<h4 class="lead">进度条</h4>
+		<div class="progress" style="height:30px;">
+			<div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%;">50%</div>
+			<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 50%;">50%</div>
+		</div><br>
+
+		<h4 class="lead">传统分页</h4>
+		<ul class=" pagination pagination-lg">
+			<li class="page-item disabled"><a href="#" class="page-link">pre</a></li>
+			<li class="page-item active"><a href="#" class="page-link">1</a></li>
+			<li class="page-item"><a href="#" class="page-link">2</a></li>
+			<li class="page-item"><a href="#" class="page-link">3</a></li>
+			<li class="page-item"><a href="#" class="page-link">next</a></li>
+		</ul><br>
+
+		<h4 class="lead">面包屑分页</h4>
+		<ul class="breadcrumb">
+			<li class="breadcrumb-item"><a href="#">pre</a></li>
+			<li class="breadcrumb-item"><a href="#">1</a></li>
+			<li class="breadcrumb-item"><a href="#">2</a></li>
+			<li class="breadcrumb-item"><a href="#">3</a></li>
+			<li class="breadcrumb-item"><a href="#">next</a></li>
+		</ul>
+
+		<h4 class="lead">基础列表组</h4>
+		<ul class="list-group">
+			<li class="list-group-item list-group-item-secondary list-group-item-action">first</li>
+			<li class="list-group-item list-group-item-info list-group-item-action">second</li>
+			<li class="list-group-item list-group-item-primary list-group-item-action">third</li>
+		</ul><br>
+
+		<h4 class="lead">链接列表组</h4>
+		<div class="list-group">
+			<a href="#" class="list-group-item list-group-item-warning">这是第一个链接</a>
+			<a href="#" class="list-group-item list-group-item-warning">这是第二个链接</a>
+			<a href="#" class="list-group-item list-group-item-warning">这是第三个链接</a>
+		</div><br>
+
+
+		<h4 class="lead">卡片</h4>
+		<div class="card" style="width: 400px;">
+			<img class="card-img-top" src="img/1%20(11).jpg" />
+			<div class="card-body">
+				<h4 class="card-title">巴卫</h4>
+				<pre class="card-text text-nowrap">
+							一只英俊又强大的温柔狐狸<br/>
+							可惜只此一只<br/>
+							已英年早婚<br/>
+						</pre>
+				<a class="catd-link btn btn-primary text-white">click</a>
+			</div>
+		</div>
+
+		<h4 class="lead ">折叠</h4>
+		<div class="container">
+			<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#info">木兰词</button>
+			<div class="collapse" id="info">
+				<p>
+					<br>
+					人意共怜花月满，</br>
+					花好月圆人又散。</br>
+					欢情去逐远云空，</br>
+					往事过如幽梦断。
+				</p>
+			</div>
+		</div><br />
+
+		<h4 class="lead">导航</h4>
+		<ul class="nav nav-pills">
+			<li class="nav-item"><a href="#" class="nav-link">P系列</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">商城</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">登录</a></li>
+			<li class="nav-item ">
+				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">配件</a>
+				<div class="dropdown-menu" style="width: 100%;">
+					<a href="#" class="dropdown-item">aa</a>
+					<a href="#" class="dropdown-item">bb</a>
+					<a href="#" class="dropdown-item">cc</a>
+				</div>
+			</li>
+		</ul><br>
+
+		<h4 class="lead">动态选项卡</h4>
+		<ul class="nav nav-pills justify-content-center">
+			<li class="nav-item" style="width: 200px;text-align: center;"><a href="#one" data-toggle="tab" class="nav-link">one</a></li>
+			<li class="nav-item" style="width: 200px;text-align: center;"><a href="#two" data-toggle="tab" class="nav-link">two</a></li>
+			<li class="nav-item" style="width: 200px;text-align: center;"><a href="#three" data-toggle="tab" class="nav-link">three</a></li>
+		</ul>
+	<div class="container" style="width: 600px">
+		<div class="tab-content">
+			<div class="tab-pane container card bg-light" id="one">
+				<p class="card-body">
+					将下拉菜单的切换按钮（您的按钮或链接）和下拉菜单包装在.dropdown或
+					另一个声明的元素内position: relative;。可以从或触发下拉菜单，
+					
+				</p>
+			</div>
+			<div class="tab-pane container card bg-light" id="two">
+				<p class="card-body">
+					同样，创建拆分按钮下拉菜单时，其标记实际上与单个按钮下拉菜单相同，
+					但要添加一个标记，.dropdown-toggle-split以便在下拉式插入符周围保持适当的间距。
+					我们使用此额外的类padding将插入号两侧的水平线降低25％，
+				</p>
+			</div>
+			<div class="tab-pane container card bg-light" id="three">
+				<p class="card-body">
+					过去，下拉菜单内容必须是链接，但v4不再是这种情况。
+					现在，您可以选择在下拉列表中使用元素，而不仅仅是
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<h4 class="lead">导航栏</h4>
+	<div class="navbar navbar-expand-xl nav-light">
+		<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon  btn btn-info"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<!-- <li class="nav-item navbar-brand"><img src="img/top_img1.gif" ></li> -->
+				<li class="nav-item"><a href="#" class="nav-link">P系列</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">商城</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">登录</a></li>
+				<!-- <li class="nav-item ">
+					<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">配件</a>
+					<div class="dropdown-menu" style="width: 100%;">
+						<a href="#" class="dropdown-item">aa</a>
+						<a href="#" class="dropdown-item">bb</a>
+						<a href="#" class="dropdown-item">cc</a>
+					</div>
+				</li> -->
+			</ul>
+		</div>
+	</div>
+
+		<h4 class="lead">卡片2</h4>
+		<div class="card" style="width: 400px;height: 500px;">
+			<img src="img/2%20(7).png" class="card-img-top" />
+			<div class="card-img-overlay">
+				<h4 class="card-header">花好月圆</h4>
+				<p class="text-body">
+					花好月圆，描述花开月圆的景色,比喻美好生活，有时用于祝贺人新婚美好。
+					【解释】：花儿正盛开，月亮正圆满。比喻美好圆满。多用于祝贺人新婚。
+					【出自】：宋·张先《木兰花》词：“人意共怜花月满，花好月圆人又散。欢情去逐远云空，往事过如幽梦断。”
+					【语法】：联合式；作谓语、定语；比喻美好生活 。
+				</p>
+				<p class="card-footer">由解释人负责，本卡片不担任何责任</p>
+			</div>
+		</div>
+
+		</div>
+
+
+
+
+
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS, final custom JS -->
+		<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+		<!-- popper.js 用于下拉菜单、弹窗、提示 -->
+		<script src="https://cdn.staticfile.org/popper.js/1.16.1/umd/popper.min.js"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

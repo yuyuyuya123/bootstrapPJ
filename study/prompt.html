@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<!-- BootStrap CSS,custom CSS -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		
+	<h4 class="lead">模态框</h4>	
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">打开模态框</button>	
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<!-- 模态框头部 -->
+				<div class="modal-header">
+					<h4 class="modal-title">模态框头部</h4>
+					、<button class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<!-- 模态框主体 -->
+				<div class="modal-body">
+					主题内容...
+				</div>
+				<!-- 模态框底部 -->
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+				</div>
+			</div>
+		</div>
+	</div><br><br>	
+
+	<h4 class="lead">提示框</h4>
+	<a href="carousel.html" data-toggle="tooltip" data-placement="bottom"
+	 data-html="true" title="去看<strong>巴卫</strong>">跳转...</a>
+	 <br><br>
+	
+	<h4 class="lead">弹出框</h4>
+	<a href="#" class="btn btn-secondary" data-toggle="popover" title="╭(╯^╰)╮"
+	 data-content="干嘛呢你，快把手拿开" data-placement="top" data-trigger="hover">
+	click me
+	</a>
+	
+	<!-- jQuery first, then Popper.js, then Bootstrap JS, final custom JS -->
+	<script src="js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+	<!-- popper.js 用于下拉菜单、弹窗、提示 -->
+	<script src="https://cdn.staticfile.org/popper.js/1.16.1/umd/popper.min.js"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+	
+</html>
